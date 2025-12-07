@@ -1,5 +1,9 @@
-# Node Correlations in Randomly Generated Graphs for GNNs
+# Investigating GNN Convergence on Large Randomly Generated Graphs with Realistic Node Feature Correlations
 
-We investigate random graph generation models. In particular, we take an autoregressive scheme, the Barabasi-Albert model, and extend it to include sampling node features with correlations.
+We investigate the convergence behaviour of graph neural networks when applied to large randomly generated graphs. The node features will be sampled in such a manner to ensure correlation between neighbouring nodes. In sampling such features, we will appeal to properties exhibited by real-life graphs, particularly properties that are captured by the Barabási-Albert model.
 
-Our findings show that it appears possible to break the convergence property of GNN-based classifiers. This suggests that on real-life networks, such GNN methods may be more expressive than we expected.
+The investigation includes an informal theoretical analysis, which indicates the possibility for divergence. Indeed, our experimental findings strongly validate that GNN classifiers may be able to produce divergent outputs on the resulting graphs, in the presence of realistic node correlations.
+
+The original paper was written by myself as part of a mini-project in Graph Representation Learning during my Master's degree. Minor adaptations have since been made to the paper, which has now been uploaded here. This repository also includes the original Python code, presented as a Jupyter notebook, which was written in Google Colab.
+
+Any comments or questions should be sent to me via email at mzain@live.co.uk.
