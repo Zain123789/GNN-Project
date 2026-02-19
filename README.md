@@ -4,6 +4,6 @@ We investigate the convergence behaviour of graph neural networks when applied t
 
 The investigation includes an informal theoretical analysis, which indicates the possibility for divergence. Indeed, our experimental findings strongly validate that GNN classifiers may be able to produce divergent outputs on the resulting graphs, in the presence of realistic node correlations.
 
-The original paper was written by myself as part of a mini-project in Graph Representation Learning during my Master's degree. Minor adaptations have since been made to the paper, which has now been uploaded here. This repository also includes the original Python code, presented as a Jupyter notebook, which was written in Google Colab.
+The original paper was written by myself as part of a mini-project in Graph Representation Learning during my Master's degree. Minor adaptations have since been made to the paper, which is available on arXiv at https://arxiv.org/abs/2602.16145. This repository includes the original Python code, presented as a Jupyter notebook, which was written in Google Colab.
 
 Any comments or questions should be sent to me via email at mzain@live.co.uk.
